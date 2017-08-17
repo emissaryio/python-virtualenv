@@ -9,8 +9,6 @@ RUN pip install --no-cache-dir \
 
 RUN virtualenv env
 
-RUN . env/bin/activate
-
 RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
